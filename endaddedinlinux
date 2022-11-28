@@ -1,0 +1,12 @@
+--------
+vi  /etc/profile.d/java.sh
+export JAVA_HOME=/opt/java/jdk-11.0.16.1
+export PATH=${JAVA_HOME}/bin:${PATH}
+source /etc/profile.d/java.sh
+
+MAVEN
+-----------
+vi  /etc/profile.d/maven.sh
+export M2_HOME= /opt/maven/apache-maven-3.8.6
+export PATH=${M2_HOME}/bin:${PATH}
+source /etc/profile.d/maven.sh
